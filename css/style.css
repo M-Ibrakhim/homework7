@@ -1,0 +1,240 @@
+body {
+  background-image: url('../img/bg.jpg');
+  background-repeat: no-repeat;
+}
+.dropdown-menu {
+  height: 140px;
+  width: 800px;
+  margin: 40px auto 0;
+  position: relative;
+}
+.menu-list {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 20px;
+}
+.menu-list > li {
+  position: relative;
+}
+.menu-list > li > a {
+  color: #fff;
+  text-decoration: none;
+}
+.drop-list {
+    position: absolute;
+    padding-top: 10px;
+    left: -30px;
+    line-height: 1.5;
+    visibility: hidden;
+}
+.drop-list > ul {
+    position: relative;
+    background-color: #F2F3F4;
+    list-style: none;
+    border-radius: 4%;
+}
+.drop-list > ul::before {
+    content: '';
+    position: absolute;
+    display: block;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #F2F3F4;
+    top: -10px;
+    left: 40px;
+}
+.drop-list > ul a {
+    display: block;
+    width: 100px;
+    height: 35px;
+    text-align: center;
+    color: #000000;
+    font-family: 'Pathway Gothic One', sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+}
+.menu-list > li:hover .drop-list {
+    display: block;
+    visibility: visible;
+}
+.btn:hover {
+  color: #2874A6;
+}
+.shape {
+  width: 120px;
+  height: 120px;
+  font-family: 'Dorsa', sans-serif;
+  font-size: 50px;
+  text-align: center;
+  line-height: 120px;
+  border-radius: 50%;
+  background: #fff;
+}
+main {
+  width: 800px;
+  height: 650px;
+  margin: 70px auto;
+  border: 1px solid #F2F3F4;
+  background: #fff;
+  position: relative;
+}
+h2 {
+  margin-top:40px;
+  margin-left: 40px;
+  font-family:'Pathway Gothic One', sans-serif;
+  color: #2874A6;
+  font-size: 25px;
+}
+.content {
+  margin-top: 40px;
+  margin-left: 40px;
+  display: flex;
+}
+.details {
+  margin-left: 20px;
+  display: block;
+  font-family:'Pathway Gothic One', sans-serif;
+  word-spacing: 1px;
+  color: #566573;
+  line-height: 15px;
+}
+.block1 {
+  margin-top: 20px;
+  display: block;
+}
+td.row {
+  padding-right: 30px;
+}
+.block2 {
+  margin-top: 30px;
+  display: block;
+}
+.t2 {
+  margin-top: 20px;
+}
+a {
+  color: #E74C3C;
+}
+a:link {
+  text-decoration: none;
+}
+aside {
+  position: absolute;
+  height: auto;
+  display: block;
+  top: 40px;
+  left: 620px;
+}
+input,textarea {
+  background-color: #F8F9F9;
+}
+h2.aside_heading {
+  margin-top:5px;
+  margin-left: 2px;
+}
+div.name {
+  margin-top: 30px;
+}
+.email,.subject,.message {
+  margin-top: 10px;
+}
+textarea {
+  height: 200px;
+}
+.button-container {
+  margin-left: 30px;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  font-family:'Pathway Gothic One', sans-serif;
+  background-color: #1A5276;
+  width: 803px;
+  left: -1px;
+  top: 750px;
+  margin-top: 30px;
+  height: 120px;
+}
+.inside_column {
+  position: relative;
+  width: 500px;
+  margin: 200px;
+}
+.list {
+  list-style: none;
+}
+.section1 {
+  position: absolute;
+  width: 200px;
+  top: -25px;
+  left: 50px;
+  text-align: center;
+}
+.section2 {
+  position: absolute;
+  width: 150px;
+  top: -25px;
+  left: 250px;
+  text-align: left;
+}
+.round {
+  display: inline-block;
+  color: #D7DBDD;
+  font-size: 15px;
+  line-height: 20px;
+  margin-right: 10px;
+}
+.round2 {
+display: inline-block;
+line-height: 20px;
+color: #D7DBDD;
+font-size: 15px;
+}
+.block {
+  position: relative;
+  margin: 0px 200px;
+}
+.social-media-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: auto;
+    margin: 60px auto;
+    list-style: none;
+}
+.social-media-list a {
+  display: block;
+  width: 37px;
+  height: 40px;
+  background-size: 120px 25px;
+  background-image: url('../img/social.jpg');
+  background-repeat: no-repeat;
+}
+.social-media-list .facebook {
+    background-position: -27px 8px;
+}
+.social-media-list .twitter {
+    background-position: 7px 8px;
+}
+.social-media-list .linkedin {
+    background-position: -90px 8px;
+}
+.social-media-list .g-plus {
+    background-position: -58px 8px;
+}
+.copy-rights {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: -90px;
+  margin: 60px auto;
+  color: #F8F9F9;
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 15px;
+}
