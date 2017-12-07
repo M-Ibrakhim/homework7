@@ -106,7 +106,7 @@ h2 {
   display: block;
 }
 td.row {
-  padding-right: 30px;
+  padding-right: 20px;
 }
 .block2 {
   margin-top: 30px;
@@ -136,7 +136,17 @@ h2.aside_heading {
   margin-left: 2px;
 }
 div.name {
+  position: relative;
   margin-top: 30px;
+}
+.name::after {
+  content: '* This field is required';
+  color: #E74C3C;
+  font-size: 10px;
+  position: absolute;
+  right: 10px;
+  display: block;
+  top: 5px;
 }
 .email,.subject,.message {
   margin-top: 10px;
