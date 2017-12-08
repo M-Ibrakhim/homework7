@@ -73,21 +73,34 @@ body {
   border-radius: 50%;
   background: #fff;
 }
-
+main {
+  position: relative;
+  width: 850px;
+  height: 650px;
+  background: #fff;
+  margin: 50px auto;
+  border: 1px solid red;
+}
+.main_heading {
+  margin-top: 40px;
+  margin-left: 45px;
+  font-family:'Pathway Gothic One', sans-serif;
+  color: #2874A6;
+  font-size: 25px;
+}
 .area {
   display: flex;
-  width: 850px;
-  height: 750px;
-  margin: 70px auto;
-  border: 1px solid #F2F3F4;
-  background: #fff;
+  width: auto;
+  height: auto;
+  border: 2px solid green;
 }
 .first_section {
   display: flex;
   flex-wrap: wrap;
   width: 650px;
   height: 550px;
-  margin: 150px 20px;
+  margin: 20px 20px;
+  border: 1px solid blue;
 }
 .country-block {
   width: 120px;
@@ -149,23 +162,22 @@ h4 {
   bottom: 10px;
   left: 15px;
 }
+aside {
+  border: 1px solid grey;
+  margin-right: 10px;
+}
 .first_aside_heading, .second_aside_heading {
   font-family:'Pathway Gothic One', sans-serif;
   color: #2874A6;
   font-size: 25px;
 }
-.second_aside_heading, .departing, .pricing, .duration {
+.departing, .pricing, .duration {
   margin-top: 30px;
-}
-
-.first_aside_heading {
-  margin-right: 10px;
-  margin-top: 80px;
 }
 .browse_p {
   margin-left: 3px;
   margin-bottom: 10px;
-  margin-top: 60px;
+  margin-top: 20px;
 }
 .aside_button {
   margin-top: 20px;
@@ -178,9 +190,6 @@ h4 {
 }
 .first_aside, .second_aside {
   margin-right: 20px;
-}
-main {
-  position: relative;
 }
 .footer {
   width: 852px;
@@ -213,4 +222,48 @@ main {
   font-size: 20px;
   width: 140px;
   padding-right: 20px;
+}
+.block {
+  position: relative;
+  margin: 0px 200px;
+}
+.social-media-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: auto;
+    margin: 90px auto;
+    list-style: none;
+}
+.social-media-list a {
+  display: block;
+  width: 37px;
+  height: 40px;
+  background-size: 120px 25px;
+  background-image: url('../img/social.jpg');
+  background-repeat: no-repeat;
+}
+.social-media-list .facebook {
+    background-position: -27px 8px;
+}
+.social-media-list .twitter {
+    background-position: 7px 8px;
+}
+.social-media-list .linkedin {
+    background-position: -90px 8px;
+}
+.social-media-list .g-plus {
+    background-position: -58px 8px;
+}
+.copy-rights {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: -90px;
+  margin: 70px auto;
+  color: #F8F9F9;
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 15px;
 }

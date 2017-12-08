@@ -74,7 +74,7 @@ body {
   background: #fff;
 }
 main {
-  width: 800px;
+  width: 850px;
   height: 650px;
   margin: 70px auto;
   border: 1px solid #F2F3F4;
@@ -87,6 +87,13 @@ h2 {
   font-family:'Pathway Gothic One', sans-serif;
   color: #2874A6;
   font-size: 25px;
+}
+.main_area {
+  display: flex;
+  width: 850px;
+  height: auto;
+  margin: auto;
+  border: 1px solid red;
 }
 .content {
   margin-top: 40px;
@@ -122,11 +129,8 @@ a:link {
   text-decoration: none;
 }
 aside {
-  position: absolute;
   height: auto;
-  display: block;
-  top: 40px;
-  left: 620px;
+  margin-left: 20px;
 }
 input,textarea {
   background-color: #F8F9F9;
@@ -142,11 +146,11 @@ div.name {
 .name::after {
   content: '* This field is required';
   color: #E74C3C;
-  font-size: 10px;
+  font-size: 8px;
   position: absolute;
-  right: 10px;
+  right: 30px;
   display: block;
-  top: 5px;
+  top: 8px;
 }
 .email,.subject,.message {
   margin-top: 10px;
@@ -158,51 +162,37 @@ textarea {
   margin-left: 30px;
 }
 .footer {
+  width: 852px;
+  height: 80px;
   display: flex;
-  align-items: center;
+  justify-content: center;
+  flex-direction: row;
   position: absolute;
+  /*left: -20px*/
+  bottom: -80px;
   font-family:'Pathway Gothic One', sans-serif;
   background-color: #1A5276;
-  width: 803px;
-  left: -1px;
-  top: 750px;
-  margin-top: 30px;
-  height: 120px;
-}
-.inside_column {
-  position: relative;
-  width: 500px;
-  margin: 200px;
 }
 .list {
   list-style: none;
 }
-.section1 {
-  position: absolute;
-  width: 200px;
-  top: -25px;
-  left: 50px;
-  text-align: center;
-}
-.section2 {
-  position: absolute;
-  width: 150px;
-  top: -25px;
-  left: 250px;
-  text-align: left;
+.section1, .section2 {
+  margin-top: 20px;
 }
 .round {
   display: inline-block;
   color: #D7DBDD;
-  font-size: 15px;
-  line-height: 20px;
-  margin-right: 10px;
+  font-size: 20px;
+  width: 180px;
+  padding-left: 20px;
+  text-align: center;
 }
 .round2 {
-display: inline-block;
-line-height: 20px;
-color: #D7DBDD;
-font-size: 15px;
+  display: inline-block;
+  color: #D7DBDD;
+  font-size: 20px;
+  width: 140px;
+  padding-right: 20px;
 }
 .block {
   position: relative;
