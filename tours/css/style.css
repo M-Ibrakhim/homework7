@@ -5,7 +5,7 @@ body {
 .dropdown-menu {
   height: 140px;
   width: 800px;
-  margin: 40px auto 0;
+  margin: 40px auto;
   position: relative;
 }
 .menu-list {
@@ -76,23 +76,20 @@ body {
 main {
   position: relative;
   width: 880px;
-  height: 650px;
+  height: 750px;
   background: #fff;
   margin: 70px auto;
-  /*border: 1px solid red;*/
 }
 .main_heading {
   font-family:'Pathway Gothic One', sans-serif;
   color: #2874A6;
   font-size: 25px;
-  margin-left: 40px;
-  margin-top: 30px;
+  margin: 40px 40px 0px;
 }
 .area {
   display: flex;
   width: auto;
   height: auto;
-  /*border: 2px solid green;*/
 }
 .first_section {
   display: flex;
@@ -100,7 +97,6 @@ main {
   width: 650px;
   height: 550px;
   margin: 20px 20px;
-  /*border: 1px solid blue;*/
 }
 .country-block {
   width: 120px;
@@ -140,22 +136,67 @@ h4 {
   color: #2874A6;
   font-size: 15px;
 }
+.do {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  outline: 0;
+  box-shadow: none;
+  border: 0;
+  background: #A6ACAF;
+  background-image: none;
+}
+.select {
+  position: relative;
+  display: block;
+  width: 155px;
+  height: 30px;
+  background: #A6ACAF;
+  overflow: hidden;
+  border-radius: .25em;
+}
+.do {
+  width: 170px;
+  height: 30px;
+  margin: 0;
+  padding: 0 0 0 .5em;
+  color: white;
+  cursor: pointer;
+}
+.select::after {
+  content: '\25BC';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0px;
+  margin-top: 8px;
+  background: #A6ACAF;
+  pointer-events: none;
+}
+.select:hover::after {
+  color: #f39c12;
+}
 .offer, .browse_p, .destination, .departing, .pricing, .duration {
   font-family:'Pathway Gothic One', sans-serif;
   color: #2C3E50;
   font-size: 13px;
 }
-.offer, .destination {
-  margin-top: 10px;
+.duration, .pricing, .departing {
+  margin-top: 50px;
 }
-.destination, .departing, .pricing, .duration {
-  margin-bottom: 10px;
+.destination {
+  margin-top: 20px;
 }
 .price {
   font-family:'Pathway Gothic One', sans-serif;
   color: #3498DB;
   font-size: 16px;
-  margin-top: 2px;
+  margin-top: 10px;
+}
+.offer {
+  margin-top: 5px;
 }
 .offer_button {
   position: absolute;
@@ -163,17 +204,19 @@ h4 {
   left: 15px;
 }
 aside {
-  /*border: 1px solid grey;*/
-  margin-right: 10px;
+  margin-right: 40px;
+  /*border: 1px solid red;*/
 }
 .first_aside_heading, .second_aside_heading {
   font-family:'Pathway Gothic One', sans-serif;
   color: #2874A6;
   font-size: 25px;
+}
+.first_aside_heading {
   margin-top: 40px;
 }
-.departing, .pricing, .duration {
-  margin-top: 30px;
+.second_aside_heading {
+  margin-top: 20px;
 }
 .browse_p {
   margin-left: 3px;
@@ -186,11 +229,12 @@ aside {
 .all_tour_operators {
   font-family:'Pathway Gothic One', sans-serif;
   color: #3498DB;
-  margin-top: 50px;
+  margin-top: 30px;
   font-size: 16px;
 }
 .first_aside, .second_aside {
-  margin-right: 20px;
+  margin-right: 50px;
+  border: 1px solid blue;
 }
 .footer {
   width: 881px;
@@ -267,4 +311,13 @@ aside {
   color: #F8F9F9;
   font-family: 'Pathway Gothic One', sans-serif;
   font-size: 15px;
+}
+.bottom-circle {
+  position: fixed;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #5DADE2;
+  bottom: 60px;
+  right: 160px;
 }
