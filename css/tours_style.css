@@ -75,24 +75,24 @@ body {
 }
 main {
   position: relative;
-  width: 850px;
+  width: 880px;
   height: 650px;
   background: #fff;
-  margin: 50px auto;
-  border: 1px solid red;
+  margin: 70px auto;
+  /*border: 1px solid red;*/
 }
 .main_heading {
-  margin-top: 40px;
-  margin-left: 45px;
   font-family:'Pathway Gothic One', sans-serif;
   color: #2874A6;
   font-size: 25px;
+  margin-left: 40px;
+  margin-top: 30px;
 }
 .area {
   display: flex;
   width: auto;
   height: auto;
-  border: 2px solid green;
+  /*border: 2px solid green;*/
 }
 .first_section {
   display: flex;
@@ -100,7 +100,7 @@ main {
   width: 650px;
   height: 550px;
   margin: 20px 20px;
-  border: 1px solid blue;
+  /*border: 1px solid blue;*/
 }
 .country-block {
   width: 120px;
@@ -163,13 +163,14 @@ h4 {
   left: 15px;
 }
 aside {
-  border: 1px solid grey;
+  /*border: 1px solid grey;*/
   margin-right: 10px;
 }
 .first_aside_heading, .second_aside_heading {
   font-family:'Pathway Gothic One', sans-serif;
   color: #2874A6;
   font-size: 25px;
+  margin-top: 40px;
 }
 .departing, .pricing, .duration {
   margin-top: 30px;
@@ -177,7 +178,7 @@ aside {
 .browse_p {
   margin-left: 3px;
   margin-bottom: 10px;
-  margin-top: 20px;
+  margin-top: 25px;
 }
 .aside_button {
   margin-top: 20px;
@@ -192,7 +193,7 @@ aside {
   margin-right: 20px;
 }
 .footer {
-  width: 852px;
+  width: 881px;
   height: 80px;
   display: flex;
   justify-content: center;

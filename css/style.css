@@ -75,7 +75,7 @@ body {
 }
 main {
   width: 850px;
-  height: 650px;
+  height: 550px;
   margin: 70px auto;
   border: 1px solid #F2F3F4;
   background: #fff;
@@ -93,7 +93,7 @@ h2 {
   width: 850px;
   height: auto;
   margin: auto;
-  border: 1px solid red;
+  /*border: 1px solid red;*/
 }
 .content {
   margin-top: 40px;
@@ -136,7 +136,7 @@ input,textarea {
   background-color: #F8F9F9;
 }
 h2.aside_heading {
-  margin-top:5px;
+  margin-top:40px;
   margin-left: 2px;
 }
 div.name {
@@ -168,7 +168,6 @@ textarea {
   justify-content: center;
   flex-direction: row;
   position: absolute;
-  /*left: -20px*/
   bottom: -80px;
   font-family:'Pathway Gothic One', sans-serif;
   background-color: #1A5276;
@@ -204,7 +203,7 @@ textarea {
     align-items: center;
     width: 250px;
     height: auto;
-    margin: 60px auto;
+    margin: 90px auto;
     list-style: none;
 }
 .social-media-list a {
@@ -233,7 +232,7 @@ textarea {
   justify-content: center;
   align-items: center;
   bottom: -90px;
-  margin: 60px auto;
+  margin: 70px auto;
   color: #F8F9F9;
   font-family: 'Pathway Gothic One', sans-serif;
   font-size: 15px;
