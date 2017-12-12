@@ -234,7 +234,7 @@ aside {
 }
 .first_aside, .second_aside {
   margin-right: 50px;
-  border: 1px solid blue;
+  /*border: 1px solid blue;*/
 }
 .footer {
   width: 881px;
